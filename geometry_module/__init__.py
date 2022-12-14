@@ -1,8 +1,8 @@
 import math
 
 def circle_area():
-    ask = input("What is your circle's radius in centimeters? ")
-    area = math.pi * float(ask)
+    ask = int(input("What is your circle's radius in centimeters? "))
+    area = math.pi * (ask**2)
     print(f"The area of your circle is {area}!")
 
 def hypot():
